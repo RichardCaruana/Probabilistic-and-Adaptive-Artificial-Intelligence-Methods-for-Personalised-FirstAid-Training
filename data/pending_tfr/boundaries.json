@@ -1,0 +1,17 @@
+{
+  "course_name": "Trauma First Responder",
+  "boundaries": [
+    {
+      "start_index": 1,
+      "raw_heading": "Objectives",
+      "skill_name": "s",
+      "unit": 1
+    },
+    {
+      "start_index": 80,
+      "raw_heading": "Objectives",
+      "skill_name": "s",
+      "unit": 1
+    }
+  ]
+}

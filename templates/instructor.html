@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Instructor Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="wrap wide">
+      <a href="/" class="back-link">&larr; Home</a>
+      <h1>Instructor Dashboard</h1>
+
+      <div class="dashboard-grid">
+        <div class="card">
+          <h2>QR Join Code</h2>
+          <label class="muted" style="margin-top: 0">Session / cohort label (optional)</label>
+          <input id="cohort-input" type="text" placeholder="e.g. 2026-07-28-morning" />
+          <img id="qr-img" src="/qr.png" alt="QR code to join" class="qr" />
+          <p class="muted">
+            Learners scan this to join the session. Set a cohort label before
+            sharing if you're running more than one session, so results can be
+            segmented per session/class later.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Current Topic (Instructor Context Filter)</h2>
+          <p class="muted">
+            Restrict adaptive questions to the skill(s) you're currently
+            teaching. Leave nothing selected to allow the system to draw from
+            all skills in the course (open practice / self-study mode).
+          </p>
+          <div id="topic-list" class="topic-list"></div>
+          <button id="save-topic-btn">Save Topic Scope</button>
+          <p id="topic-status" class="muted"></p>
+        </div>
+
+        <div class="card">
+          <h2>Human-in-the-Loop Review</h2>
+          <p class="muted">
+            Choose how generated questions and simulations are checked before a
+            learner sees them.
+          </p>
+
+          <label class="muted" style="margin-top: 0">Review mode</label>
+          <select id="review-mode-select">
+            <option value="off">Off — auto-approve everything</option>
+            <option value="always">Always review</option>
+            <option value="confidence">Confidence-based (recommended)</option>
+          </select>
+
+          <div id="confidence-threshold-row" class="threshold-row hidden">
+            <label class="muted" for="confidence-threshold">
+              Review anything below this confidence:
+              <span id="threshold-label">85%</span>
+            </label>
+            <input
+              id="confidence-threshold"
+              type="range"
+              min="0.5"
+              max="1.0"
+              step="0.05"
+              value="0.85"
+            />
+          </div>
+
+          <button id="save-review-mode-btn">Save</button>
+          <p id="review-mode-status" class="muted"></p>
+        </div>
+
+        <div class="card alerts-card">
+          <h2>⚠️ Alerts</h2>
+          <div id="alerts-list"></div>
+        </div>
+      </div>
+
+      <div id="review-queue-card" class="card hidden">
+        <h2>📋 Pending Questions</h2>
+        <div id="review-queue-list"></div>
+      </div>
+
+      <div id="review-sim-queue-card" class="card hidden">
+        <h2>🏥 Pending Patient Simulations</h2>
+        <div id="review-sim-queue-list"></div>
+      </div>
+
+      <div class="card">
+        <h2>Learners</h2>
+        <table id="learners-table" class="learners-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Course</th>
+              <th>Profession</th>
+              <th>Cohort</th>
+              <th>Condition</th>
+              <th>Turns</th>
+              <th>Avg. Mastery</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <h2>Export Data</h2>
+        <p class="muted">CSV dumps for results-chapter analysis (pandas/R/Excel).</p>
+        <a href="/api/instructor/export/interactions.csv">Interactions</a> ·
+        <a href="/api/instructor/export/mastery.csv">Mastery</a> ·
+        <a href="/api/instructor/export/alerts.csv">Alerts</a> ·
+        <a href="/api/instructor/export/corpus_coverage.csv">Corpus Coverage</a>
+      </div>
+
+      <div id="learner-detail" class="card hidden">
+        <h2 id="detail-name"></h2>
+        <table class="skill-table">
+          <thead>
+            <tr>
+              <th>Skill</th>
+              <th>Unit</th>
+              <th>Mastery</th>
+              <th>Attempts</th>
+              <th>Flag</th>
+            </tr>
+          </thead>
+          <tbody id="detail-skills"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script>
+      window.__SKILLS__ = {{ skills | tojson }};
+    </script>
+    <script src="/static/instructor.js"></script>
+  </body>
+</html>

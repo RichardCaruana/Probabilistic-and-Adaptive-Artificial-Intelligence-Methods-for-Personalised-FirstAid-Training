@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learner - Adaptive First-Aid Training</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <a href="/" class="back-link">&larr; Home</a>
+
+    <div id="join-screen" class="card">
+      <h1>Join Training Session</h1>
+      <label>Your name</label>
+      <input id="name-input" type="text" placeholder="e.g. Sarah" />
+      <label>Your profession / work context <span class="muted">(optional — personalises scenarios)</span></label>
+      <input id="profession-input" type="text" placeholder="e.g. warehouse operator, teacher, lifeguard" />
+      <button id="join-btn">Start</button>
+      <p id="join-error" class="error"></p>
+    </div>
+
+    <div id="mode-screen" class="card hidden">
+      <h1>Choose a Mode</h1>
+      <div class="role-cards">
+        <div class="role-card" id="mode-quiz-btn">
+          <h2>❓ Quick Questions</h2>
+          <p>Short adaptive scenario questions, one at a time.</p>
+        </div>
+        <div class="role-card" id="mode-sim-btn">
+          <h2>🏥 Patient Simulator</h2>
+          <p>Work through a live, multi-step patient case.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="question-screen" class="card hidden">
+      <div class="meta-row">
+        <span id="skill-badge" class="badge"></span>
+        <span id="difficulty-badge" class="badge"></span>
+        <span id="review-badge" class="badge badge-review hidden">Review</span>
+      </div>
+      <p id="scenario-text" class="scenario"></p>
+      <h2 id="question-text"></h2>
+      <div id="options-list" class="options"></div>
+      <p id="q-error" class="error"></p>
+    </div>
+
+    <div id="feedback-screen" class="card hidden">
+      <h2 id="feedback-heading"></h2>
+      <p id="feedback-explanation" class="explanation"></p>
+      <p id="feedback-citation" class="citation"></p>
+      <div class="mastery-row">
+        <span>Mastery: <strong id="mastery-value"></strong></span>
+        <span>Uncertainty: <strong id="uncertainty-value"></strong></span>
+      </div>
+      <button id="next-btn">Next Question</button>
+    </div>
+
+    <div id="sim-intro-screen" class="card hidden">
+      <div class="meta-row">
+        <span id="sim-skill-badge" class="badge"></span>
+        <span id="sim-difficulty-badge" class="badge"></span>
+      </div>
+      <p id="sim-intro-text" class="scenario"></p>
+      <h2 id="sim-prompt-text"></h2>
+      <div id="sim-actions-list" class="options"></div>
+    </div>
+
+    <div id="sim-outcome-screen" class="card hidden">
+      <p id="sim-outcome-result" class="explanation"></p>
+      <p id="sim-outcome-text" class="scenario"></p>
+      <button id="sim-continue-btn">Continue</button>
+    </div>
+
+    <div id="sim-complete-screen" class="card hidden">
+      <h2>Case Complete</h2>
+      <p id="sim-resolution-text" class="explanation"></p>
+      <p>Score: <strong id="sim-score-text"></strong></p>
+      <button id="sim-restart-btn">Back to Mode Selection</button>
+    </div>
+
+    <div id="loading" class="card hidden">
+      <p>Generating your next question…</p>
+    </div>
+
+    <div id="pending-screen" class="card hidden">
+      <p>⏳ Your instructor is reviewing this before it's shown to you…</p>
+    </div>
+  </div>
+
+<script src="/static/learner.js"></script>
+</body>
+</html>

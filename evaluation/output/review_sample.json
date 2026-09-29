@@ -1,0 +1,731 @@
+[
+  {
+    "blinded_id": "ITEM-012",
+    "modality": "mcq",
+    "skill_name": "Secondary Survey",
+    "difficulty": "hard",
+    "scenario": "You are assisting a colleague who tripped and fell in the warehouse. After completing your primary survey, you confirm there are no life-threatening conditions. The casualty is conscious and complaining of pain in their left wrist. Before placing them in the recovery position, you need to conduct a secondary survey.",
+    "question": "What are the two essential components you must complete during the secondary survey?",
+    "options": [
+      "The casualty's history including SAMPLE, and a head-to-toe survey",
+      "A full body examination and immediate placement in recovery position",
+      "Vital signs monitoring and documentation of witness statements",
+      "Pain assessment and application of immediate treatment to all injured areas"
+    ],
+    "marked_correct_index": 0,
+    "explanation": "According to the source material, the secondary survey consists of two specific parts: gathering the casualty's history (which includes signs and symptoms, using the SAMPLE format), and conducting a top-to-toe survey. The secondary survey must be completed as swiftly as possible and prior to placing the casualty in the recovery position. The head-to-toe survey systematically checks the head, neck, shoulders/chest/sternum, abdomen/pelvis, and arms/legs.",
+    "source_citation": "The secondary survey consists of two parts: The casualties history, signs and symptoms; Top to toe survey"
+  },
+  {
+    "blinded_id": "ITEM-015",
+    "modality": "mcq",
+    "skill_name": "Unresponsive Casualty Breathing Normally",
+    "difficulty": "medium",
+    "scenario": "You discover a colleague collapsed on the floor in the break room. After checking for danger and confirming they are unresponsive, you open their airway and establish they are breathing normally. You have checked for and treated any life-threatening bleeding.",
+    "question": "What should you do next?",
+    "options": [
+      "Place the casualty in the recovery position",
+      "Leave them lying flat on their back and monitor their breathing",
+      "Sit them upright against the wall to help them breathe",
+      "Call 999/112 and wait without moving them"
+    ],
+    "marked_correct_index": 0,
+    "explanation": "According to the source material, if the casualty is unconscious but breathing normally and you have treated all life-threatening conditions, you should place them in the recovery position. This is important because it aids the maintenance of an open airway and draws away fluids from the mouth such as vomit or saliva.",
+    "source_citation": "If the casualty is unconscious but breathing normally and you have treated all the life threatening conditions you should place them in the Recovery Position."
+  },
+  {
+    "blinded_id": "ITEM-011",
+    "modality": "mcq",
+    "skill_name": "Bone, Muscle & Joint Injuries",
+    "difficulty": "medium",
+    "scenario": "During a company team-building event, a colleague falls awkwardly while playing football and lands on their shoulder. They are sitting on the ground, holding their shoulder, which appears to have an unusual shape compared to the other side. They tell you they felt something 'pop out' and are in significant pain. There is no visible wound.",
+    "question": "What is the most appropriate initial first aid action?",
+    "options": [
+      "Treat it as a fracture and support the injury in the most comfortable position for the casualty",
+      "Attempt to push the joint back into its normal position to reduce the pain",
+      "Apply a cold compress and advise the casualty to move the shoulder gently to prevent stiffness",
+      "Immediately elevate the arm above the head to reduce swelling"
+    ],
+    "marked_correct_index": 0,
+    "explanation": "The casualty is showing classic signs of a dislocation: pain at the injury site, deformity, and loss of normal function. According to the treatment protocol for dislocations, you should treat it as a fracture and never attempt to put the bone back in place yourself. The source material specifically instructs to assist the casualty in supporting the injury in a way that is most comfortable for them, then arrange transport to hospital.",
+    "source_citation": "Treatment of dislocations: Treat as a fracture, DO NOT try and put the bone back in place, Arrange for transport to the hospital"
+  },
+  {
+    "blinded_id": "ITEM-009",
+    "modality": "mcq",
+    "skill_name": "Eye Injury",
+    "difficulty": "easy",
+    "scenario": "A warehouse worker approaches you saying that dust got into their right eye while sweeping. They are blinking frequently and the eye appears irritated but there is no visible penetration or severe trauma.",
+    "question": "What is the first action you should take after asking the casualty to sit down?",
+    "options": [
+      "Gently open the eye and check for any foreign bodies",
+      "Immediately call 999/112 for emergency services",
+      "Ask the casualty to cover the affected eye with a non-fluffy dressing",
+      "Encourage the casualty to keep both eyes tightly closed"
+    ],
+    "marked_correct_index": 0,
+    "explanation": "For a minor eye injury caused by a foreign object irritating the surface of the eye, the correct procedure is to first ask the casualty to sit down, then gently open the eye and check for any foreign bodies. Only after checking would you proceed to flush the eye with clean water or sterile eye wash. Calling 999 and using dressings are procedures reserved for major eye injuries involving penetration or severe blunt force trauma.",
+    "source_citation": "Ask the casualty to sit down. Gently open the eye and check for any foreign bodies"
+  },
+  {
+    "blinded_id": "ITEM-016",
+    "modality": "mcq",
+    "skill_name": "Burns & Scalds",
+    "difficulty": "hard",
+    "scenario": "A warehouse worker has accidentally spilled a corrosive chemical on their forearm, causing a painful burn. The burn area is approximately 15cm long and already showing redness. A colleague has removed the worker's watch and is ready to provide first aid. The chemical has been washed off, but the burn site still feels hot to touch.",
+    "question": "What is the most appropriate next step in treating this chemical burn?",
+    "options": [
+      "Cool the burn with cold running water for at least 10 minutes",
+      "Apply ice wrapped in a cloth to the burn for 5 minutes to reduce swelling",
+      "Immediately cover the burn with cling film to prevent infection",
+      "Apply a soothing cream to the burn before covering with a sterile dressing"
+    ],
+    "marked_correct_index": 0,
+    "explanation": "The priority when treating burns is to cool the area and stop the burning process. According to the treatment protocol, the injury site must be cooled with cold running water for at least 10 minutes. Ice should never be used, and fats, creams or lotions should not be applied. The burn should only be covered after it has been cooled sufficiently. Since the burn still feels hot to touch, cooling must be completed before any dressing is applied.",
+    "source_citation": "Cool the injury site with cold running water for at least 10 minutes. Do not use Ice. Do not apply any fats, creams or lotions."
+  },
+  {
+    "blinded_id": "ITEM-002",
+    "modality": "simulation",
+    "skill_name": "Minor Injuries",
+    "difficulty": "easy",
+    "patient_intro": "You're working in the office kitchen when a colleague yelps in pain. She's just spilled hot tea from the kettle onto the back of her hand. The skin is red and she's holding it awkwardly, looking distressed. She says it really hurts.",
+    "steps": [
+      {
+        "prompt": "What is your immediate first action?",
+        "actions": [
+          {
+            "label": "Cool the burn under cold running water for at least ten minutes",
+            "correct": true,
+            "outcome": "You guide her hand under the cold tap. After a few minutes of cooling, she visibly relaxes and says the pain is easing. The reddened skin looks less angry. You continue cooling for the full ten minutes as the burning sensation subsides."
+          },
+          {
+            "label": "Apply a cold compress for ten minutes",
+            "correct": false,
+            "outcome": "You fetch a cold compress and hold it against her hand. She winces slightly and says it helps a bit, but the burning sensation persists more than it should. The compress isn't as effective as it could be for this type of injury."
+          },
+          {
+            "label": "Immediately apply a sterile dressing to protect the burn",
+            "correct": false,
+            "outcome": "You quickly bandage her hand without cooling it first. She continues to grimace in pain, saying it still feels like it's burning underneath the dressing. The trapped heat makes her increasingly uncomfortable."
+          },
+          {
+            "label": "Ask her to keep her hand raised and supported",
+            "correct": false,
+            "outcome": "She raises her hand above her head as you suggest. While this might help with some injuries, the burning sensation in her hand continues unabated. She looks at you uncertainly, clearly still in significant discomfort from the heat."
+          }
+        ]
+      },
+      {
+        "prompt": "After cooling the burn appropriately, what do you do next?",
+        "actions": [
+          {
+            "label": "Assess the burn to determine if medical advice is needed",
+            "correct": true,
+            "outcome": "You examine her hand now that it's cooled. The area is about the size of a fifty-pence piece, red but not blistering yet. It appears to be a minor scald that should heal naturally with first aid, though a small blister may form later."
+          },
+          {
+            "label": "Apply butter or oil to the burn to help it heal",
+            "correct": false,
+            "outcome": "You suggest applying butter from the kitchen. This is not appropriate treatment - it could trap heat and increase the risk of infection. The colleague looks uncertain about this approach and the reddened area shows no improvement."
+          },
+          {
+            "label": "Immediately call an ambulance for the injury",
+            "correct": false,
+            "outcome": "You dial 999 in a panic. The operator asks about the size and severity. When you describe the small reddened area on her hand, they inform you this doesn't require emergency services and that basic first aid should suffice."
+          }
+        ]
+      },
+      {
+        "prompt": "The burn appears minor. What advice do you give your colleague?",
+        "actions": [
+          {
+            "label": "Tell her the injury should heal naturally with first aid, but to seek medical advice if concerned",
+            "correct": true,
+            "outcome": "You reassure her that this type of minor scald usually heals naturally with the first aid you've provided. You advise her to seek medical advice if she becomes concerned about it. She thanks you, feeling much calmer now."
+          },
+          {
+            "label": "Insist she must go to A&E immediately",
+            "correct": false,
+            "outcome": "She looks confused at your insistence, as the pain has largely subsided and the burn appears quite minor. This seems like an overreaction to a small domestic-type scald that has been properly cooled."
+          },
+          {
+            "label": "Tell her to apply a cold compress for ten minutes every hour today",
+            "correct": false,
+            "outcome": "While cold compresses have their place in first aid, this repeated application isn't the appropriate ongoing treatment for this minor scald. The injury has already been cooled adequately and needs no further cold treatment."
+          }
+        ]
+      }
+    ],
+    "resolution": "Your colleague's minor scald has been properly managed with appropriate cooling. The reddened skin will heal naturally over the next few days. She may develop a small blister, but knows to seek medical advice if she has any concerns. She returns to work, grateful for your calm and effective first aid response."
+  },
+  {
+    "blinded_id": "ITEM-013",
+    "modality": "mcq",
+    "skill_name": "Assessing an Incident",
+    "difficulty": "easy",
+    "scenario": "You are working in an office when a colleague suddenly collapses to the floor and begins having a seizure. Several other workers gather around to see what is happening. What should be your immediate priority after ensuring the person is safely on the floor?",
+    "question": "What is the most important action to take next?",
+    "options": [
+      "Remove any potential dangers and clear bystanders from the area",
+      "Call 999/112 immediately before taking any other action",
+      "Attempt to stop the seizure by holding the person still",
+      "Place the casualty in the recovery position while they are seizing"
+    ],
+    "marked_correct_index": 0,
+    "explanation": "According to the source material, after helping the casualty to the floor and noting the time, the immediate next steps in managing a seizure are to remove any potential dangers and remove any bystanders. This protects both the casualty and others before proceeding with further care. Emergency services (999/112) should only be called if this is the casualty's first seizure, if it lasts more than 5 minutes, or if the casualty has been unconscious for more than a specified time.",
+    "source_citation": "Remove any potential dangers. Remove any bystanders."
+  },
+  {
+    "blinded_id": "ITEM-006",
+    "modality": "simulation",
+    "skill_name": "Shock",
+    "difficulty": "easy",
+    "patient_intro": "You are working in an office building when you hear a crash from the staff kitchen. You arrive to find a colleague, Sarah, sitting on the floor near a pool of spilled coffee. She has a deep laceration on her forearm that is bleeding heavily, with blood soaking through the paper towels she's holding against it. She looks pale and is breathing quickly.",
+    "steps": [
+      {
+        "prompt": "What is your first priority after ensuring the scene is safe?",
+        "actions": [
+          {
+            "label": "Assess Sarah's level of consciousness and breathing while controlling the bleeding",
+            "correct": true,
+            "outcome": "Sarah is conscious but appears confused and weak. Her breathing is rapid and shallow. You apply direct pressure to the wound with a clean cloth, successfully slowing the bleeding. She remains pale and clammy."
+          },
+          {
+            "label": "Immediately elevate her legs before doing anything else",
+            "correct": false,
+            "outcome": "You move Sarah's legs up, but her arm wound continues to bleed heavily onto the floor. She becomes more pale and dizzy, saying 'I don't feel right.' You have not yet assessed her properly or controlled the bleeding."
+          },
+          {
+            "label": "Give her water to drink to help with blood loss",
+            "correct": false,
+            "outcome": "Sarah takes a small sip but immediately looks nauseous and pushes the water away. Her breathing remains rapid and she's still bleeding from the arm wound. Her pale, clammy appearance worsens."
+          }
+        ]
+      },
+      {
+        "prompt": "Sarah is conscious but showing signs of shock: pale skin, rapid shallow breathing, weak pulse, and confusion. The bleeding is now controlled. What should you do next?",
+        "actions": [
+          {
+            "label": "Call 999/112 for emergency help",
+            "correct": true,
+            "outcome": "You call for emergency services, explaining Sarah has a severe arm laceration with significant blood loss and is showing signs of shock. The operator confirms an ambulance is on the way and advises you to continue monitoring her."
+          },
+          {
+            "label": "Help her stand up and walk to a chair to rest",
+            "correct": false,
+            "outcome": "As you help Sarah to her feet, she becomes extremely dizzy and her legs buckle. She nearly collapses and her confusion worsens. Her skin becomes even more pale and cold to the touch."
+          },
+          {
+            "label": "Wait to see if she improves on her own before calling for help",
+            "correct": false,
+            "outcome": "After a few minutes, Sarah's condition does not improve. Her pulse remains rapid and weak, her breathing stays shallow, and she appears increasingly weak and confused. The injury and blood loss are severe enough to require immediate emergency care."
+          }
+        ]
+      },
+      {
+        "prompt": "Emergency services are on their way. Sarah is still conscious but showing ongoing signs of shock. How should you position her while waiting for the ambulance?",
+        "actions": [
+          {
+            "label": "Lay her down flat, elevate her legs by bending at the knees, keeping her head low",
+            "correct": true,
+            "outcome": "You help Sarah lie down on the floor and carefully raise her legs, bending them at the knees. Her head remains low. This position helps improve blood flow to her vital organs. She remains pale but seems slightly more stable."
+          },
+          {
+            "label": "Sit her upright with her head between her knees",
+            "correct": false,
+            "outcome": "Sarah struggles to maintain this position. She feels faint and her breathing remains rapid and shallow. This position is not helping her condition and she appears increasingly weak."
+          },
+          {
+            "label": "Keep her in the sitting position where you found her",
+            "correct": false,
+            "outcome": "Sarah remains sitting on the floor, but her weakness and dizziness continue. Her pulse stays rapid and weak, and her pale, clammy appearance persists. This position is not optimal for managing her shock."
+          }
+        ]
+      },
+      {
+        "prompt": "Sarah is lying down with her legs elevated. She's still pale, cold and clammy. What else should you do while waiting for the ambulance?",
+        "actions": [
+          {
+            "label": "Loosen any tight clothing and protect her from cold by covering her with a jacket",
+            "correct": true,
+            "outcome": "You loosen Sarah's collar and belt, then cover her with a nearby jacket to protect her from the cold floor and air conditioning. You continue to monitor her consciousness and breathing, noting that while still in shock, she's not deteriorating further."
+          },
+          {
+            "label": "Give her sugary tea to help with the shock",
+            "correct": false,
+            "outcome": "When you offer Sarah the tea, she turns her head away looking nauseous. Vomiting is a sign of shock, and giving her fluids by mouth risks choking or aspiration. Her condition remains unchanged."
+          },
+          {
+            "label": "Leave her alone to rest quietly until the ambulance arrives",
+            "correct": false,
+            "outcome": "Without continuous monitoring, you don't notice when Sarah's breathing becomes more shallow and her confusion increases. When you check on her after a few minutes, her condition appears to have worsened slightly. Shock requires constant monitoring."
+          }
+        ]
+      }
+    ],
+    "resolution": "The ambulance arrives within minutes. You provide the paramedics with a clear handover: Sarah suffered a severe arm laceration with significant blood loss, has been showing signs of shock including rapid weak pulse, rapid shallow breathing, pale cold clammy skin, and confusion. You controlled the bleeding, called 999, positioned her lying down with legs elevated and head low, loosened tight clothing, protected her from cold, and continuously monitored her consciousness and breathing. The paramedics commend your management and transport Sarah to hospital for further treatment."
+  },
+  {
+    "blinded_id": "ITEM-021",
+    "modality": "mcq",
+    "skill_name": "Role & Responsibilities of a First Aider",
+    "difficulty": "easy",
+    "scenario": "You arrive at your workplace cafeteria and find a colleague who has slipped and fallen. There is broken glass on the floor around them, and the colleague is conscious but appears injured. Several other employees are standing nearby looking concerned.",
+    "question": "What should be your FIRST priority as a first aider in this situation?",
+    "options": [
+      "Assess the situation quickly and calmly, and protect yourself and the casualty from danger",
+      "Immediately begin treating the casualty's visible injuries",
+      "Ask other employees to call emergency services while you comfort the casualty",
+      "Check the contents of the nearest first aid kit to see what supplies are available"
+    ],
+    "marked_correct_index": 0,
+    "explanation": "According to the role and responsibilities of a first aider, you must first assess the situation quickly and calmly, and protect yourself and any casualties from danger. The source material explicitly states to 'never put yourself in danger' and emphasizes that protecting yourself and casualties from danger comes before other actions. In this scenario, the broken glass presents an ongoing hazard that must be addressed before treatment begins.",
+    "source_citation": "Assess the situation quickly and calmly. Protect yourself and any casualties from danger - never put yourself in danger."
+  },
+  {
+    "blinded_id": "ITEM-003",
+    "modality": "mcq",
+    "skill_name": "Head & Spinal Injuries",
+    "difficulty": "medium",
+    "scenario": "You are called to assist a colleague who fell from a ladder in the warehouse. He is conscious but complaining of severe neck pain and tingling sensations in his hands. He is lying on his back and appears pale.",
+    "question": "What is your most important priority in managing this casualty?",
+    "options": [
+      "Keep the casualty still and maintain their current position without moving them",
+      "Immediately place the casualty in the recovery position to protect their airway",
+      "Sit the casualty up slowly to help them breathe more easily",
+      "Move the casualty to a more comfortable location before treating them"
+    ],
+    "marked_correct_index": 0,
+    "explanation": "Given the mechanism of injury (fall from height), combined with neck pain and tingling sensations in the limbs, you must suspect a spinal injury. The source material emphasizes that spinal injuries require immediate correct treatment due to the threat of paralysis or death, and states you should always assume spinal injury in cases of falls from height. The casualty should not be moved, as improper handling could cause further damage to the spinal cord. The signs present (tingling sensation, fall from height) directly indicate potential spinal injury requiring immobilization.",
+    "source_citation": "Always assume spinal injury in the case of high speed road traffic accidents, fall from a height or contact sports injury... it is important if a spinal injury is suspected that correct treatment is immediately applied, due to the threat of paralysis or even death"
+  },
+  {
+    "blinded_id": "ITEM-019",
+    "modality": "mcq",
+    "skill_name": "Choking",
+    "difficulty": "medium",
+    "scenario": "You are in the office break room when a colleague suddenly stands up from their lunch table, clutching their throat with both hands. Their face is turning red and their eyes appear wide and bulging. You ask if they can speak, but they shake their head frantically and make no sound.",
+    "question": "Based on the casualty's presentation, what type of airway obstruction are they experiencing and what should be your first action?",
+    "options": [
+      "Completely blocked airway - immediately deliver 5 back blows",
+      "Partially blocked airway - encourage them to cough forcefully",
+      "Completely blocked airway - encourage them to cough forcefully",
+      "Partially blocked airway - immediately deliver 5 abdominal thrusts"
+    ],
+    "marked_correct_index": 0,
+    "explanation": "This casualty is showing classic signs of a completely blocked airway: unable to speak, grasping at the throat, red face, and enlarged eyes. According to the treatment protocol for choking, when dealing with a completely blocked airway, the first-aider should deliver 5 back blows as the initial intervention, followed by 5 abdominal thrusts if needed, and repeat this cycle. Encouraging coughing is only appropriate for a partially blocked airway where the casualty can still speak, breathe, and cough.",
+    "source_citation": "Completely blocked airway signs include: unable to speak, unable to breath, unable to cough effectively, signs of distress, red face, enlarged eyes, grasping at throat. Treatment sequence: 5 back blows, 5 abdominal thrusts, repeat."
+  },
+  {
+    "blinded_id": "ITEM-005",
+    "modality": "mcq",
+    "skill_name": "Shock",
+    "difficulty": "easy",
+    "scenario": "You are working in an office when a colleague suddenly collapses after a workplace accident. The person is conscious but appears pale and has cold, clammy skin. Their pulse feels weak and rapid, and they are breathing quickly.",
+    "question": "What is the correct position for this conscious casualty showing signs of shock?",
+    "options": [
+      "Lie them down with legs elevated and head low",
+      "Sit them upright in a chair to help with breathing",
+      "Place them in the recovery position immediately",
+      "Have them stand and walk slowly to increase circulation"
+    ],
+    "marked_correct_index": 0,
+    "explanation": "For a conscious casualty in shock, the correct position is to lie them down with their legs elevated (bending at the knees) while keeping the head low. This position helps maintain blood flow to vital organs. The recovery position is only used if the casualty becomes unconscious.",
+    "source_citation": "If the casualty is conscious lie them down, elevating the legs, bending at the knees. Keeping the head low."
+  },
+  {
+    "blinded_id": "ITEM-010",
+    "modality": "simulation",
+    "skill_name": "Eye Injury",
+    "difficulty": "easy",
+    "patient_intro": "You're working in an office when a colleague from the maintenance team approaches you, squinting and rubbing his right eye. He tells you something blew into his eye while he was replacing an air filter. His eye is red, watering heavily, and he keeps trying to rub it. He appears anxious and uncomfortable.",
+    "steps": [
+      {
+        "prompt": "What is your first action?",
+        "actions": [
+          {
+            "label": "Ask the casualty to sit down and reassure him while you assess the situation",
+            "correct": true,
+            "outcome": "Your colleague sits down in a nearby chair and stops rubbing his eye. He seems calmer now that someone is helping. You can see his right eye is red and watering, but he is able to keep it partially open when you ask him to."
+          },
+          {
+            "label": "Immediately call 999/112 for emergency services",
+            "correct": false,
+            "outcome": "You call emergency services, but the dispatcher asks if the eye has been penetrated or if there's severe trauma. Your colleague shakes his head - he says it's just dust or debris. The dispatcher advises this may not require an ambulance and suggests basic first aid. Your colleague continues rubbing his eye, becoming more distressed."
+          },
+          {
+            "label": "Tell him to keep rubbing his eye to dislodge the foreign body",
+            "correct": false,
+            "outcome": "Your colleague continues rubbing his eye vigorously. His eye becomes more inflamed and red, and he winces in pain. The rubbing appears to be making the irritation worse rather than better. He's clearly in more discomfort now."
+          }
+        ]
+      },
+      {
+        "prompt": "Now that the casualty is seated, what should you do next?",
+        "actions": [
+          {
+            "label": "Cover both of his eyes with dressings to minimize movement",
+            "correct": false,
+            "outcome": "You place dressings over both eyes. Your colleague immediately becomes distressed, saying he can't see anything and this doesn't feel right for something that just blew in his eye. The foreign body hasn't been removed and is still causing irritation."
+          },
+          {
+            "label": "Gently open the affected eye and check for any foreign bodies",
+            "correct": true,
+            "outcome": "You carefully ask him to look in different directions while you gently hold the eyelid open. You can see a small particle of dust or debris on the surface of his eye near the lower lid. The eye is irritated but there's no sign of penetration or severe trauma - this appears to be a minor eye injury."
+          },
+          {
+            "label": "Apply pressure to the eye to stop the watering",
+            "correct": false,
+            "outcome": "You apply gentle pressure to the closed eyelid. Your colleague pulls back sharply, saying that hurts. His eye waters even more heavily and he's clearly in more discomfort. The foreign body remains lodged in the eye."
+          }
+        ]
+      },
+      {
+        "prompt": "You've identified a small foreign body on the eye surface. What is the correct treatment?",
+        "actions": [
+          {
+            "label": "Lay the casualty flat and ask him to cover the affected eye",
+            "correct": false,
+            "outcome": "You help him lie down on the floor and hand him a dressing to cover his eye. He looks confused, saying this seems excessive for dust in his eye. The foreign body is still present and causing irritation. This level of intervention doesn't match the minor nature of the injury."
+          },
+          {
+            "label": "Try to remove the foreign body with your fingers or a cotton swab",
+            "correct": false,
+            "outcome": "You attempt to remove the particle with your finger. Your colleague flinches and pulls away, and you realize you may have pushed the debris further or scratched the eye surface. His eye becomes more red and painful. He's now more anxious than before."
+          },
+          {
+            "label": "Flush the eye with clean water to wash out the foreign body, ensuring the water drains away from the good eye",
+            "correct": true,
+            "outcome": "You carefully tilt his head so the affected eye is lower, then gently pour clean water across the eye from the inner corner outward. After a few moments of irrigation, your colleague blinks and says the particle is gone. His eye is still red but the sharp irritation has stopped. He can now open the eye more comfortably."
+          }
+        ]
+      },
+      {
+        "prompt": "The foreign body has been successfully flushed out. What should you do now?",
+        "actions": [
+          {
+            "label": "Monitor the casualty and seek medical assistance if appropriate",
+            "correct": true,
+            "outcome": "You continue to reassure him and ask how his eye feels. He reports the sharp pain is gone, though his eye still feels slightly irritated and looks red. You advise him to seek medical attention if the redness doesn't improve or if his vision becomes affected. He thanks you and says he'll monitor it and visit his GP if needed."
+          },
+          {
+            "label": "Tell him he's fine now and can return to work immediately",
+            "correct": false,
+            "outcome": "You tell him to go straight back to work. He stands up but still seems uncomfortable, blinking frequently. After a few minutes he returns, saying his eye is still very irritated and his vision is slightly blurry. You realize you should have monitored his condition and advised about seeking further medical help."
+          },
+          {
+            "label": "Bandage both eyes and call 999/112",
+            "correct": false,
+            "outcome": "You place dressings over both eyes and call emergency services. Your colleague protests that his eye feels much better now and this seems excessive. The emergency dispatcher confirms this level of response isn't appropriate for a minor foreign body that's already been removed. Your colleague is frustrated by the overreaction."
+          }
+        ]
+      }
+    ],
+    "resolution": "The casualty's eye injury has been successfully managed. The foreign body was safely removed by irrigation, and he has been advised to monitor his condition and seek medical assistance if symptoms persist or worsen. He's relieved and grateful for your calm, systematic approach to what turned out to be a minor eye injury."
+  },
+  {
+    "blinded_id": "ITEM-022",
+    "modality": "mcq",
+    "skill_name": "Unresponsive Casualty Not Breathing Normally (CPR/AED)",
+    "difficulty": "medium",
+    "scenario": "You are responding to a collapsed colleague in your office breakroom. After confirming they are unresponsive and not breathing normally, you have called for help and started CPR. A co-worker arrives with an AED, and you quickly apply the pads to the casualty's bare chest. The AED begins to analyse the heart rhythm.",
+    "question": "What is your most important action while the AED is analysing?",
+    "options": [
+      "Ensure no one, including yourself, is touching the casualty during analysis",
+      "Continue chest compressions to maintain blood flow",
+      "Check the casualty's pulse to confirm the AED reading",
+      "Prepare to deliver rescue breaths while waiting for the result"
+    ],
+    "marked_correct_index": 0,
+    "explanation": "When the AED is analysing the casualty's heart rhythm, it is critical that nobody touches the casualty because physical contact can interfere with the device and cause inaccurate results. The source material explicitly states you must ensure no one including the first aider touches the casualty whilst the AED is analysing, as this is important because inaccurate results could be given by the AED. You should shout 'STAND CLEAR' and follow the voice prompts.",
+    "source_citation": "Ensure that no one including the first aider touches casualty whilst the AED is analysing (this is important as inaccurate results could be given by the AED)"
+  },
+  {
+    "blinded_id": "ITEM-004",
+    "modality": "mcq",
+    "skill_name": "External Bleeding",
+    "difficulty": "hard",
+    "scenario": "You respond to a warehouse incident where a worker has sustained a deep laceration to their forearm from a broken pallet. Blood is flowing steadily from the wound. A large splinter of wood is visibly embedded in the center of the wound. The casualty is conscious and sitting on the floor.",
+    "question": "What is the correct first aid approach for managing this casualty's bleeding?",
+    "options": [
+      "Remove the embedded splinter, then apply direct pressure to the wound with a sterile dressing",
+      "Apply pressure around the embedded object without removing it, using padding to avoid pressing on the splinter itself",
+      "Apply a tourniquet above the wound and leave the splinter in place until emergency services arrive",
+      "Clean the wound thoroughly with water before applying any pressure to reduce infection risk"
+    ],
+    "marked_correct_index": 1,
+    "explanation": "When bleeding involves an embedded object, the source material explicitly distinguishes between two scenarios in practice: 'Bleeding without an embedded object' and 'Bleeding with an embedded object.' The material teaches different approaches for these situations. For embedded objects, you must NOT remove the object. Instead, apply pressure around the embedded object using padding or dressings that avoid pressing directly on the object itself. This prevents further damage and uncontrolled bleeding that could occur if the object is removed. The general 'Sit or Lay, Examine, Pressure' principle still applies, but the pressure technique must be modified for the embedded object.",
+    "source_citation": "Practice the following: Bleeding without an embedded object --- Bleeding with an embedded object"
+  },
+  {
+    "blinded_id": "ITEM-014",
+    "modality": "simulation",
+    "skill_name": "Assessing an Incident",
+    "difficulty": "easy",
+    "patient_intro": "You're working in an office building when you hear a loud crash from the break room. You arrive to find a colleague lying motionless on the floor near an overturned ladder. A broken mug and spilled liquid are scattered around them, and an exposed electrical outlet with damaged wiring is visible on the wall nearby.",
+    "steps": [
+      {
+        "prompt": "What is your first action when you arrive at the scene?",
+        "actions": [
+          {
+            "label": "Look, listen, and think to assess the scene for dangers before approaching",
+            "correct": true,
+            "outcome": "You pause at the doorway and scan the area. You notice the exposed wiring near the casualty, the wet floor creating a potential electrical hazard, and the unstable ladder. You identify these dangers before proceeding and decide the area needs to be made safe first."
+          },
+          {
+            "label": "Rush immediately to the casualty to check if they're breathing",
+            "correct": false,
+            "outcome": "As you rush forward through the spilled liquid toward the casualty, you slip slightly on the wet floor near the exposed wiring. You catch yourself, but realize you've put yourself at risk without first assessing the scene for dangers. You step back to reconsider the situation."
+          },
+          {
+            "label": "Call the emergency services immediately before doing anything else",
+            "correct": false,
+            "outcome": "You pull out your phone and begin to dial, but you haven't yet assessed whether the scene is safe or determined the casualty's condition. The emergency operator asks what the situation is, but you cannot provide clear information yet. You realize you need to assess the scene first."
+          }
+        ]
+      },
+      {
+        "prompt": "You've identified electrical hazards and wet flooring as dangers. What do you do next?",
+        "actions": [
+          {
+            "label": "Make the area safe by switching off the electricity at the main switch and moving the ladder aside",
+            "correct": true,
+            "outcome": "You locate the electrical panel in the corridor and switch off power to the break room. You carefully move the unstable ladder away from the casualty. The scene is now safe for you to approach and assess the casualty without risk of electrocution or further injury."
+          },
+          {
+            "label": "Place warning signs around the area and proceed to assess the casualty anyway",
+            "correct": false,
+            "outcome": "You put up a 'wet floor' sign, but the electrical hazard remains active. As you kneel near the casualty in the wet area, you feel a tingling sensation and quickly move back. The danger has not been properly controlled and you cannot safely approach yet."
+          },
+          {
+            "label": "Shout for help and wait for someone else to deal with the electrical hazard",
+            "correct": false,
+            "outcome": "You call out for assistance but precious time passes while you wait. No one with electrical expertise immediately responds. The casualty remains on the floor, unassessed. You realize you should take action yourself to make the scene safe by isolating the power supply."
+          }
+        ]
+      },
+      {
+        "prompt": "The scene is now safe. What is your next step?",
+        "actions": [
+          {
+            "label": "Check the casualty's response by speaking to them and gently tapping their shoulders",
+            "correct": true,
+            "outcome": "You kneel beside the casualty and say loudly, 'Can you hear me? Open your eyes.' You gently tap their shoulders. There is no response\u2014the casualty does not open their eyes, speak, or move. They are unresponsive."
+          },
+          {
+            "label": "Immediately start CPR compressions",
+            "correct": false,
+            "outcome": "You place your hands on the casualty's chest to begin compressions, but you haven't yet checked if they are responsive or assessed their airway and breathing. You realize you're jumping ahead in the sequence\u2014you need to check their response first."
+          },
+          {
+            "label": "Look for visible injuries and check their medical alert bracelet",
+            "correct": false,
+            "outcome": "You begin examining the casualty for cuts and bruises, but you haven't established whether they are responsive. Without first checking their response level, you cannot determine the urgency of the situation or what action to take next."
+          }
+        ]
+      },
+      {
+        "prompt": "The casualty is unresponsive. What should you do now?",
+        "actions": [
+          {
+            "label": "Open the airway and check if the casualty is breathing normally",
+            "correct": true,
+            "outcome": "You tilt the casualty's head back gently and lift their chin to open the airway. You look, listen, and feel for breathing for up to 10 seconds. The casualty is breathing normally\u2014you can see their chest rising and falling steadily. They are unresponsive but breathing."
+          },
+          {
+            "label": "Call the emergency services immediately without checking breathing",
+            "correct": false,
+            "outcome": "You dial 999 but when the operator asks about the casualty's condition, you cannot tell them whether the person is breathing or not. The operator instructs you to check breathing first, as this determines the urgency and type of response needed."
+          },
+          {
+            "label": "Try to wake them by shaking them more vigorously",
+            "correct": false,
+            "outcome": "You shake the casualty's shoulders more firmly and call their name repeatedly. There is still no response, and you may have risked causing further injury if they have a head or spinal injury from the fall. You haven't progressed with the primary survey sequence."
+          }
+        ]
+      },
+      {
+        "prompt": "The casualty is unresponsive but breathing normally. What is the appropriate action?",
+        "actions": [
+          {
+            "label": "Call the emergency services immediately, explaining you have an unresponsive but breathing casualty",
+            "correct": true,
+            "outcome": "You call 999 and clearly state that you have an unresponsive casualty who is breathing normally. The operator confirms an ambulance is on its way and advises you to monitor the casualty's breathing while waiting. You have correctly identified this as an emergency requiring professional help."
+          },
+          {
+            "label": "Begin CPR since the casualty is unresponsive",
+            "correct": false,
+            "outcome": "You start chest compressions, but the casualty is breathing normally. CPR is not needed when a casualty is breathing. The compressions could actually harm them. You stop and reconsider\u2014an unresponsive but breathing casualty needs emergency services, not CPR."
+          },
+          {
+            "label": "Leave them in the position you found them and go to find a first aid kit",
+            "correct": false,
+            "outcome": "You leave the casualty alone to search for supplies. While you're gone, you cannot monitor their breathing. An unresponsive but breathing casualty requires emergency services to be called immediately and continuous monitoring\u2014you shouldn't leave them unattended."
+          }
+        ]
+      }
+    ],
+    "resolution": "Emergency services arrive within minutes. You provide them with a clear handover: the casualty was found unresponsive after a fall from a ladder, the electrical hazard was made safe, and they have been breathing normally throughout. The paramedics take over care and transport the casualty to hospital for further assessment. Your systematic scene survey and primary survey ensured both your safety and appropriate care for the casualty."
+  },
+  {
+    "blinded_id": "ITEM-007",
+    "modality": "mcq",
+    "skill_name": "Anaphylaxis",
+    "difficulty": "medium",
+    "scenario": "You are working in an office when a colleague who has been eating lunch suddenly complains of feeling strange. Within minutes, you notice their face and lips are rapidly swelling, their voice sounds hoarse, and they are showing red blotchy skin. They appear extremely anxious and tell you they have an auto-injector in their bag but seem confused.",
+    "question": "What is your immediate first aid priority in this situation?",
+    "options": [
+      "Call 999/112, lay the casualty in a comfortable position, and assist them in administering their auto-injector medication",
+      "Have them lie down immediately and wait to see if the symptoms resolve on their own before taking further action",
+      "Give them water to drink and encourage them to take slow, deep breaths to calm down",
+      "Administer the auto-injector yourself without their assistance, then call for help"
+    ],
+    "marked_correct_index": 0,
+    "explanation": "This casualty is showing multiple signs of anaphylaxis including rapid swelling of face and lips, hoarse voice, red blotchy skin, and extreme anxiety. According to the immediate first aid treatment procedure for anaphylaxis, you must call 999/112, lay the casualty in a comfortable position, and if the casualty is conscious, assist them in administering the medication contained within the auto-injector. All three actions form the correct response for a conscious casualty experiencing anaphylaxis.",
+    "source_citation": "Call 999/112. Lay the casualty in a comfortable position. If the casualty is conscious assist them in administering the medication contained within the auto injector."
+  },
+  {
+    "blinded_id": "ITEM-018",
+    "modality": "simulation",
+    "skill_name": "Major Illness",
+    "difficulty": "easy",
+    "patient_intro": "You are working in an office when a 52-year-old colleague suddenly clutches his chest and sits down heavily in his chair. He looks pale and is sweating. He tells you his chest feels tight and painful.",
+    "steps": [
+      {
+        "prompt": "What is your first action?",
+        "actions": [
+          {
+            "label": "Ask the casualty to describe their symptoms and keep them seated",
+            "correct": true,
+            "outcome": "The casualty remains seated and tells you the pain is crushing and radiates down his left arm. He appears anxious and his breathing is laboured. This presentation is consistent with a possible heart attack."
+          },
+          {
+            "label": "Immediately lay the casualty flat on the floor",
+            "correct": false,
+            "outcome": "The casualty becomes more distressed when laid flat, struggling to breathe comfortably. His anxiety increases and he asks to sit up because he cannot catch his breath in this position."
+          },
+          {
+            "label": "Give the casualty a sugary drink",
+            "correct": false,
+            "outcome": "The casualty takes a small sip but pushes the drink away, saying he feels nauseous. The chest pain continues unchanged and he remains pale and sweating. The drink has not helped his condition."
+          }
+        ]
+      },
+      {
+        "prompt": "The casualty is seated and clearly unwell with chest pain. What should you do next?",
+        "actions": [
+          {
+            "label": "Call 999/112 immediately and report a suspected heart attack",
+            "correct": true,
+            "outcome": "Emergency services are alerted and ask you to keep the casualty seated and comfortable. The dispatcher confirms an ambulance is on its way and asks you to monitor the casualty until help arrives."
+          },
+          {
+            "label": "Help the casualty walk to a quieter room to rest",
+            "correct": false,
+            "outcome": "As the casualty stands and begins walking, the exertion makes the chest pain worse. He becomes more breathless and has to stop, leaning heavily against the wall. His condition has deteriorated with the movement."
+          },
+          {
+            "label": "Wait 15 minutes to see if the pain goes away on its own",
+            "correct": false,
+            "outcome": "After several minutes, the casualty's pain has not improved. He is becoming increasingly anxious and the sweating has worsened. Valuable time has been lost in getting emergency medical help."
+          },
+          {
+            "label": "Check if the casualty has a glucose testing kit",
+            "correct": false,
+            "outcome": "The casualty does not have diabetes and has no testing kit. The chest pain continues unabated and he remains pale and clammy. This approach is not addressing his current emergency."
+          }
+        ]
+      },
+      {
+        "prompt": "Emergency services have been called. How should you position and monitor the casualty while waiting for the ambulance?",
+        "actions": [
+          {
+            "label": "Keep the casualty in a comfortable seated position and monitor their condition",
+            "correct": true,
+            "outcome": "The casualty remains seated with support behind his back. You stay with him, offering reassurance. He is able to breathe more easily in this position and, though still in pain and anxious, he feels slightly more comfortable as you monitor him."
+          },
+          {
+            "label": "Place the casualty in the recovery position immediately",
+            "correct": false,
+            "outcome": "The casualty is conscious and the recovery position is unnecessary. When you try to position him on his side, he resists, saying this makes his breathing more difficult. He clearly prefers to remain upright."
+          },
+          {
+            "label": "Leave the casualty alone while you go wait outside for the ambulance",
+            "correct": false,
+            "outcome": "Left alone, the casualty becomes more anxious and frightened. When you return, his distress has increased. Continuous monitoring and reassurance are important for someone with suspected heart attack."
+          }
+        ]
+      }
+    ],
+    "resolution": "The ambulance arrives within minutes. Paramedics take over care, quickly assessing the casualty and providing emergency cardiac treatment. Your prompt recognition of the suspected heart attack, immediate call to emergency services, and appropriate positioning of the casualty have given him the best chance of a positive outcome. He is transported to hospital for further cardiac care."
+  },
+  {
+    "blinded_id": "ITEM-001",
+    "modality": "mcq",
+    "skill_name": "Minor Injuries",
+    "difficulty": "easy",
+    "scenario": "A warehouse worker bumps their shin hard against a metal shelf while moving boxes. The skin is not broken, but a dark purple bruise is already forming and the area is tender to touch.",
+    "question": "What is the appropriate first aid treatment for this bruise?",
+    "options": [
+      "Apply a cold compress for ten minutes and keep the bruised area raised and supported",
+      "Apply a warm compress for five minutes and massage the area gently",
+      "Wrap the area tightly with a bandage and apply direct pressure",
+      "Clean the area with antiseptic and cover with a sterile dressing"
+    ],
+    "marked_correct_index": 0,
+    "explanation": "For bruises, the correct first aid treatment involves applying a cold compress for ten minutes while keeping the bruised area raised and supported. This helps reduce swelling and provides comfort. The other options are either incorrect techniques or appropriate for different types of injuries such as cuts rather than bruises.",
+    "source_citation": "Apply a cold compress for ten minutes. Keep the bruised area raised and supported."
+  },
+  {
+    "blinded_id": "ITEM-020",
+    "modality": "mcq",
+    "skill_name": "Chest Injuries",
+    "difficulty": "hard",
+    "scenario": "You respond to a workplace incident where a forklift operator has been struck in the chest by a falling metal beam. The casualty is sitting upright, supporting their left arm against their chest. They tell you breathing in causes sharp pain on their left side. Their skin appears pale and cool, their breathing is shallow, and their pulse feels rapid when you check it. There are no visible open wounds.",
+    "question": "Based on the signs and symptoms present, what is the most appropriate first aid treatment for this casualty?",
+    "options": [
+      "Help them lie flat on their back and monitor their breathing while waiting for emergency services",
+      "Place the arm on the injured side in a supported sling to provide extra support",
+      "Apply a sterile pad taped on three sides over the injury site to prevent air entering the chest",
+      "Have them stand and walk slowly to prevent stiffness while you call for help"
+    ],
+    "marked_correct_index": 1,
+    "explanation": "The casualty is showing signs consistent with a suspected rib fracture: mechanism of injury (direct force from falling beam), pale and cool skin, pain especially when breathing in, shallow breathing, and rapid pulse. For a suspected rib fracture, the source material states you should help the casualty to sit down, ask them to support the arm on the injured side, and place the arm in a supported sling for extra support. Since there is no open wound present, the treatment for a penetrating chest wound (pad taped on three sides) would not be appropriate.",
+    "source_citation": "If their is a suspected rib fracture: Help the casualty to sit down, Ask the casualty to support the arm on the injured side, Place the arm in a supported sling for extra support"
+  },
+  {
+    "blinded_id": "ITEM-017",
+    "modality": "mcq",
+    "skill_name": "Major Illness",
+    "difficulty": "easy",
+    "scenario": "You are working in an office when a colleague suddenly clutches their chest and says they feel unwell. After sitting them down, they mention they are diabetic and feel shaky and confused. They are conscious and able to speak.",
+    "question": "What is the most appropriate immediate action to take?",
+    "options": [
+      "Give them something to eat or drink which contains a high sugar content",
+      "Immediately place them in the recovery position",
+      "Administer their insulin injection for them",
+      "Call 999/112 and wait without giving them anything"
+    ],
+    "marked_correct_index": 0,
+    "explanation": "For a conscious diabetic casualty showing signs of low blood sugar (hypoglycaemia), the first aid procedure is to sit them down and give them something to eat or drink with high sugar content. This can help restore their blood sugar levels quickly. The recovery position is only used if they become unconscious, and you should never attempt to administer an insulin injection as a first aider.",
+    "source_citation": "If conscious, sit the casualty down and give them something to eat or drink which contains a high sugar content"
+  },
+  {
+    "blinded_id": "ITEM-008",
+    "modality": "mcq",
+    "skill_name": "Poisoning",
+    "difficulty": "hard",
+    "scenario": "You respond to a workshop where a colleague has splashed an unknown chemical solvent across their face and neck. The chemical is soaking through their shirt collar and you can see redness developing on their neck. They are conscious but complaining of burning sensations on their skin and in their left eye. You have called 999.",
+    "question": "What is the correct sequence of immediate actions while waiting for the ambulance?",
+    "options": [
+      "Remove contaminated clothing carefully, flood the affected skin with cool running water for at least 20 minutes, then gently hold the eye open and flood it with running water for at least 10 minutes before covering with a sterile dressing",
+      "Cover the eye immediately with a sterile dressing to prevent further contamination, then remove clothing and flood the skin with cool water for 10 minutes",
+      "Flood the eye with running water for at least 20 minutes first as eyes are most vulnerable, then remove clothing and rinse the skin for 10 minutes",
+      "Apply a cold compress to the eye and affected skin areas, remove contaminated clothing, and keep the casualty still until paramedics arrive"
+    ],
+    "marked_correct_index": 0,
+    "explanation": "When poison is absorbed through both skin and eye, you must address both routes of entry according to the specific procedures. For absorbed poison on skin, you should remove contaminated clothing with care and flood the affected area with cool running water for at least 20 minutes. For absorbed poison in the eye, you should gently hold the eye open and flood inside and out with running water for at least 10 minutes, then cover the eye with a sterile dressing. The contaminated clothing should be removed first to prevent continued exposure and spreading, followed by the prolonged skin irrigation, then the eye-specific treatment with its shorter irrigation time and subsequent dressing.",
+    "source_citation": "Absorbed poison (skin): Remove the contaminated clothing with care so as not to spread exposure, flood the affected area with cool running water for at least 20 minutes. Absorbed poison (eye): Gently holding the eye open, flood inside and out with running water for at least 10 minutes, cover the eye with a sterile dressing."
+  }
+]
